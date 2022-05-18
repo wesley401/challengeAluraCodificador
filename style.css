@@ -1,0 +1,79 @@
+#logoAlura{
+    margin: 20px 20px;
+}
+#encriptaTexto{
+    display:block;
+    font-size: larger;
+    margin-left: 120px;
+    width: 680px;
+    height: 48px;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-weight: 400;
+    line-height: 150%;
+}
+.texto {
+    resize: none;
+    border-radius: 5px;
+    font-family: 'Inter';
+    border-color: #0A3871;
+}
+.resultado {
+    resize: none;
+    border-radius: 5px;
+    font-family: 'Inter';
+    border-color: #0A3871;
+    color: rgb(199, 206, 212);
+}
+.principal {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+.btnCriptografa{
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: aliceblue;
+    border-color: aliceblue;
+    order: 0;
+}   
+.btnDescriptografa {
+    width: 328px;
+    height: 67px;
+    background: #cbcfd4;
+    border-radius: 24px;
+    color:#0A3871;
+    border-color: #0A3871;
+    order: 0;  
+}
+.btnCopiar {
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: aliceblue;
+    border-color: aliceblue;
+    order: 0;
+}
+#resultado-li {
+    display: flex;
+    flex-direction: column;
+}
+#aviso{
+    display: flex;
+    margin: 10px;
+}
+footer {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Inter';
+    color: aliceblue;
+    margin-top: 100px;
+    width: 100%;
+    padding: 5%;
+    font-size: large;
+    background-color: #0A3871;
+}

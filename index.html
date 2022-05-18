@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Desafio decodificador de texto</title>
+</head>
+<body>
+    <header>
+            <img id="logoAlura" src="imagens/Vector.svg" alt="logo-alura">
+    </header>
+    <main>
+        <label for="encriptador" id="encriptaTexto">Digite seu texto</label>
+        <ul class="principal">
+            <li>
+                <textarea name="encriptador" class="texto" cols="90" rows="30"placeholder="Digite seu Texto:" ></textarea>
+                <div id="aviso">
+                <img src="imagens/exclamacao.svg" alt="exclamacao">
+                <p>Apenas letras minusculas e sem acento.</p></div>
+                <button class="btnCriptografa">Criptografar</button>
+                <button class="btnDescriptografa">Descriptografar</button>
+                
+            </li>
+            <li id="resultado-li">
+                <textarea name="resultado" class="resultado" cols="30" rows="14" readonly></textarea>
+                <img class="imagem" id="img-copy" src="imagens/boneco.svg" alt="resultado">
+                <button class="btnCopiar">Copiar</button>
+            </li>
+        </ul>
+    </main>
+</body>
+<footer>
+    <a style="color: aliceblue;" class="github" href="http://github.com/wesley401">GITHUB</a>
+    <p class="copyright"> © Copyright wesley401 - 2022</p>  
+    </footer>
+<script src="principal.js"></script>
+</html>
